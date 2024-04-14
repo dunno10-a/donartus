@@ -1,42 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>donartus</title>
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #121212;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    overflow: hidden;
-  }
-  .typing {
-    white-space: pre;
-    overflow: hidden;
-    border-right: 3px solid white;
-    animation: typing 2s steps(9) 1s 1 normal both,
-               blink-caret .75s step-end infinite;
-    font-size: 2em;
-    font-weight: bold;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 9ch }
-  }
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: white }
-  }
-</style>
-</head>
-<body>
-<div class="typing">Donartus.</div>
-</body>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta charset="UTF-8">
+        <title>Bible Verse Hour</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="theme-color" content="var(--bgColor)">
+    </head>
+    <body>
+            <!--Page Content Below-->
+        <img id="userPhoto" class="animated rubberBand fast" src="https://raw.githubusercontent.com/dunno10-a/projectweb-1b/main/images/profile-picture.jpg" alt="donartus.me">
+        <h1 class="animated jello">Bible Verse Hour</h1>
+        <div id="links" class="animated fadeInLeft delay-1s">
+            <a class="link" href="https://dailyverses.net/random-bible-verse" target="_blank">Web Version</a>
+            <a class="link" href="https://www.buymeacoffee.com/bibleversehour" target="_blank">Support Us</a>
+        </div>
+        
+    </body>
 </html>
